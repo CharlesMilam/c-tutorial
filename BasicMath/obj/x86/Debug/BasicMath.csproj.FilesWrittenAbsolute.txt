@@ -1,0 +1,5 @@
+/home/milam/git/csharp-tutorial/BasicMath/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/milam/git/csharp-tutorial/BasicMath/bin/Debug/BasicMath.exe.mdb
+/home/milam/git/csharp-tutorial/BasicMath/bin/Debug/BasicMath.exe
+/home/milam/git/csharp-tutorial/BasicMath/obj/x86/Debug/BasicMath.exe
+/home/milam/git/csharp-tutorial/BasicMath/obj/x86/Debug/BasicMath.exe.mdb
