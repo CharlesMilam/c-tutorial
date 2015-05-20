@@ -8,8 +8,15 @@ namespace HelloWorld
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
-      Console.ReadLine ();
+      string firstName = "Charles";
+      string lastName = "Milam";
+
+			Console.WriteLine ("Name: " + firstName + " " + lastName);
+
+      Console.WriteLine ("Please enter a new first name.");
+      firstName = Console.ReadLine ();
+
+      Console.WriteLine ("New name: " + firstName + " " + lastName);
 		}
 	}
 }
