@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Loops
 {
@@ -33,7 +34,15 @@ namespace Loops
         Console.WriteLine (i);
       }
         
+      // foreach loop
+      ArrayList list = new ArrayList ();
+      list.Add ("Charles");
+      list.Add ("Grace");
+      list.Add ("Alli");
 
+      Console.WriteLine ("foreach loop");
+      foreach (string name in list)
+        Console.WriteLine (name);
     }
   }
 }
