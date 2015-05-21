@@ -1,0 +1,5 @@
+/home/milam/git/csharp-tutorial/Loops/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/milam/git/csharp-tutorial/Loops/bin/Debug/Loops.exe.mdb
+/home/milam/git/csharp-tutorial/Loops/bin/Debug/Loops.exe
+/home/milam/git/csharp-tutorial/Loops/obj/x86/Debug/Loops.exe
+/home/milam/git/csharp-tutorial/Loops/obj/x86/Debug/Loops.exe.mdb
