@@ -12,7 +12,7 @@ namespace Loops
       while(number < 5)
       {
         Console.WriteLine (number);
-        number = number + 1;
+        number += 1;
       }
 
       // reset number variable
@@ -21,7 +21,7 @@ namespace Loops
       // do loop
       do {
         Console.WriteLine (number);
-        number = number + 1;
+        number += 1;
       } while(number < 5);
 
     }
