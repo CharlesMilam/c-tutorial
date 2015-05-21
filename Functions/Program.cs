@@ -7,7 +7,7 @@ namespace Functions
     public static void Main (string[] args)
     {
       DoStuff();
-      Console.WriteLine(AddNumbers (3, 6));
+      Console.WriteLine(AddNumbers (3, 12));
     }
 
     // basic function
@@ -19,7 +19,14 @@ namespace Functions
     // basic addition function
     public static int AddNumbers (int num1, int num2)
     {
-      return num1 + num2;
+      int result = num1 + num2;
+
+      if (result > 10)
+      {
+        return result;
+      }
+
+      return 0;
     }
   }
 }
