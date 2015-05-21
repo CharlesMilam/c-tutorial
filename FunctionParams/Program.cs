@@ -8,14 +8,14 @@ namespace FunctionParams
     {
       int number = 20;
 
-      AddFive (number);
+      AddFive (ref number);
 
       Console.WriteLine (number);
       //Console.ReadKey ();
     }
 
     // add five to param
-    public static void AddFive (int number)
+    public static void AddFive (ref int number)
     {
       number += 5;
     }
