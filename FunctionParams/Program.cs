@@ -6,7 +6,18 @@ namespace FunctionParams
   {
     public static void Main (string[] args)
     {
-      Console.WriteLine ("Hello World!");
+      int number = 20;
+
+      AddFive (number);
+
+      Console.WriteLine (number);
+      //Console.ReadKey ();
+    }
+
+    // add five to param
+    public static void AddFive (int number)
+    {
+      number += 5;
     }
   }
 }
