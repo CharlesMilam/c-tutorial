@@ -22,6 +22,18 @@ namespace Arrays
       {
         Console.WriteLine (i + ". " + names [i]);
       }
+
+      // populate a new arrray
+      int[] numbers = { 4, 3, 8, 0, 5 };
+
+      // sort the numbers array
+      Array.Sort (numbers);
+
+      // print the numbers
+      foreach(int num in numbers)
+      {
+        Console.WriteLine (num);
+      }
     }
   }
 }
